@@ -1,0 +1,50 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+    /* background-color: blue; */
+}
+
+
+.cont1 p{
+    font-size: 20px;
+}
+.cont2 {
+    position: relative;
+    top: 15vh;
+    /* background-color: aqua; */
+    
+}
+
+.item .question {
+    cursor: pointer;
+}
+
+.icon {
+    font-weight: bold;
+}
+
+.content {
+    width: 95%;
+    font-weight:500;
+}
+
+@media screen and (max-width: 765px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .cont1 {
+        width: 100%;
+    }
+
+    .cont2 {
+        position: relative;
+        top: 0vh;
+    }
+}
